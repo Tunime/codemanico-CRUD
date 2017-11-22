@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+ Route::get ('/create','MascotaController@vista');
+ Route::post ('/create','MascotaController@create');
